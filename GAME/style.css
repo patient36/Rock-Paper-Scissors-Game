@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: consolas;
+}
+body{
+    background-color: black;
+}
+.game{
+    border: 1px solid black;
+    margin-top: 100px ;
+    margin-left:35% ;
+    padding: 10px;
+    width: fit-content;
+    background-color: aliceblue;
+    border-radius: 7px;
+}
+.game-header{
+    padding: 5px;
+    border-bottom: 2px solid black;
+}
+button{
+    width: 100px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(69, 96, 154);
+    color: azure;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 2px 3px  7px black;
+    transition: 0.5s;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 7px black;
+}
+.your-choice,.pc-choice{
+    margin: 5px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(141, 192, 237);
+    box-shadow: 2px 3px 5px rgb(49, 43, 43);
+    color: rgb(48, 76, 136);
+    transition: 0.5s;
+}
+
+.results{
+    padding: 5px;
+    outline: none;
+    border: none;
+    background-color: rgba(41, 138, 250, 0.35);
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 2px 3px 10px rgb(32, 45, 14);
+    font-size: 17px;
+    color:rgb(55, 88, 158);
+
+}
+.players{
+    padding-left: 25px;
+    font-size: 10px;
+    font-weight: 700;
+    color: rgb(146, 208, 234);
+    text-decoration: dashed;
+}
+.your-choice:hover,.pc-choice:hover{
+    box-shadow: 0 0 7px black;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    /* Styles for devices with a maximum width of 600 pixels */
+    body {
+      font-size: 14px;
+    }
+  }
+  
